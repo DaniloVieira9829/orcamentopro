@@ -1,0 +1,17 @@
+orcamentopro/
+├── index.html          # Arquivo principal HTML
+├── style.css           # Estilos CSS
+├── script.js           # Lógica JavaScript
+├── LICENSE             # Licença MIT
+├── README.md           # Este arquivo
+├── CONTRIBUTING.md     # Guia de contribuição
+├── SECURITY.md         # Política de segurança
+├── CODE_OF_CONDUCT.md  # Código de conduta
+├── .github/
+│   └── workflows/
+│       └── deploy.yml  # GitHub Actions
+├── assets/
+│   ├── images/
+│   └── icons/
+└── docs/
+    └── api.md          # Documentação da API

@@ -1,0 +1,40 @@
+
+## 3. CONTRIBUTING.md (Guia de Contribuição)
+
+**Arquivo: CONTRIBUTING.md**
+```markdown
+# Guia de Contribuição
+
+Obrigado por considerar contribuir com o OrçamentoPro! Seguem as diretrizes para contribuição.
+
+## Como Posso Contribuir?
+
+### Reportando Bugs
+- Use o template de issue para bugs
+- Inclua steps para reproduzir
+- Adicione screenshots se possível
+- Informe seu ambiente (navegador, OS, versão)
+
+### Sugerindo Melhorias
+- Descreva a feature claramente
+- Explique por que seria útil
+- Inclui exemplos de uso se possível
+
+### Pull Requests
+1. Siga o style guide do projeto
+2. Adicione testes para novas funcionalidades
+3. Atualize a documentação
+4. Mantenha commits organizados
+
+## Style Guide
+
+### Código JavaScript
+```javascript
+// Use ES6+ features
+const example = () => {
+  // Use const/let instead of var
+  const variable = 'value';
+  
+  // Use template literals
+  console.log(`Hello ${variable}`);
+};

@@ -1,0 +1,59 @@
+
+## 4. SECURITY.md (Política de Segurança)
+
+**Arquivo: SECURITY.md**
+```markdown
+# Política de Segurança
+
+## Versões Suportadas
+
+Use esta seção para informar às pessoas sobre quais versões do seu projeto estão atualmente sendo suportadas com atualizações de segurança.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0.x   | :white_check_mark: |
+| < 1.0   | :x:                |
+
+## Reportando uma Vulnerabilidade
+
+**NÃO** reporte vulnerabilidades de segurança através de issues públicas.
+
+Em vez disso, envie um e-mail para security@example.com com as seguintes informações:
+
+- Descrição detalhada da vulnerabilidade
+- Steps para reproduzir
+- Possível impacto
+- Sugestões de correção (se houver)
+
+### Processo de Report
+1. Você reporta a vulnerabilidade
+2. Nós confirmamos o recebimento em 48 horas
+3. Investigamos e desenvolvemos um fix
+4. Lançamos uma versão corrigida
+5. Divulgamos publicamente a vulnerabilidade
+
+### Timeline de Resposta
+- **48 horas**: Confirmação inicial
+- **7 dias**: Update sobre progresso
+- **30 dias**: Resolução completa (dependendo da complexidade)
+
+## Boas Práticas de Segurança
+
+### Para Desenvolvedores
+- Valide todos os inputs do usuário
+- Use HTTPS em produção
+- Mantenha dependências atualizadas
+- Implemente Content Security Policy
+
+### Para Usuários
+- Use versões atualizadas
+- Não exponha dados sensíveis
+- Verifique certificados SSL
+
+## Reconhecimentos
+
+Agradecemos a todos que reportaram vulnerabilidades de forma responsável.
+
+## Histórico de Segurança
+
+- [CVE-XXXX-XXXX] Descrição da vulnerabilidade - Corrigido na versão X.X.X
